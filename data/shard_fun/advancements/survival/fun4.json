@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_helmet"
+    },
+    "title": "Survivalist",
+    "frame": "task",
+    "description": "That's it. You're good. You can stop now...",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "shardcraft:survival/fun3",
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
