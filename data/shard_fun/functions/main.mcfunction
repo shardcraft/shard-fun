@@ -2,6 +2,7 @@
 execute if score global clocks matches 0 run team join pvp @a[team=!debug]
 
 # Do fun stuff.
+execute if score global clocks matches 0 run advancement grant @a only shard_fun:survival/root
 execute if score global clocks matches 0 run function shard_fun:add_fun
 execute if score global clocks matches 0 run execute if entity @a[scores={deaths=1..}] run function shard_fun:remove_fun
 execute if score global clocks matches 0 run function shard_fun:update_fun_level

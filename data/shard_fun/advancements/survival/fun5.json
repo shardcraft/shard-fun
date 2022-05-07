@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "shardcraft:survival/fun4",
+  "parent": "shard_fun:survival/fun4",
   "criteria": {
     "nothing": {
       "trigger": "minecraft:impossible"

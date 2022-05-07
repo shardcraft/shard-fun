@@ -18,7 +18,7 @@ scoreboard players set @a[scores={fun=121935..}] funLevel 4
 scoreboard players set @a[scores={fun=240000..}] funLevel 5
 
 # Grant the Survival advancements to all players that should have it but don't.
-advancement grant @a[scores={funLevel=2}] until shardcraft:survival/fun2
-advancement grant @a[scores={funLevel=3}] until shardcraft:survival/fun3
-advancement grant @a[scores={funLevel=4}] until shardcraft:survival/fun4
-advancement grant @a[scores={funLevel=5}] until shardcraft:survival/fun5
+advancement grant @a[scores={funLevel=2}] until shard_fun:survival/fun2
+advancement grant @a[scores={funLevel=3}] until shard_fun:survival/fun3
+advancement grant @a[scores={funLevel=4}] until shard_fun:survival/fun4
+advancement grant @a[scores={funLevel=5}] until shard_fun:survival/fun5
