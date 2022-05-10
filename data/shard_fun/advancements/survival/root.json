@@ -5,12 +5,12 @@
     },
     "title": "Survival",
     "frame": "task",
-    "background": "minecraft:textures/block/fire_coral_block.png",
     "description": "Try not to die",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
+  "parent": "shardcraft:shard/root",
   "criteria": {
     "nothing": {
       "trigger": "minecraft:impossible"
