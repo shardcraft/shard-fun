@@ -18,6 +18,7 @@ scoreboard objectives add aviate minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add craft minecraft.custom:minecraft.interact_with_crafting_table
 scoreboard objectives add smelt minecraft.custom:minecraft.interact_with_furnace
 scoreboard objectives add brew minecraft.custom:minecraft.interact_with_brewingstand
+scoreboard objectives add totem minecraft.used:minecraft.totem_of_undying
 
 # Team
 team add pvp "PvP"
