@@ -1,0 +1,1 @@
+give @s minecraft:iron_hoe[custom_name='{"text":"Soul Hoe","italic":false}',lore=['{"text":"Level: I","color":"gold"}','{"text":""}','{"text":"It is said this tool"}','{"text":"can adapt to its wielder."}'],enchantments={levels:{fortune: 0},show_in_tooltip:false},repair_cost=1000000,unbreakable={show_in_tooltip:false}] 1

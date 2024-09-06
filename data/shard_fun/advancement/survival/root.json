@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Survival",
+    "frame": "task",
+    "description": "Try not to die",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "shardcraft:shard/root",
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
+    },
+    "title": "Undead",
+    "frame": "challenge",
+    "description": "What is dead can never die...",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "shard_fun:survival/fun4",
+  "criteria": {
+    "nothing": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

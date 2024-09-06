@@ -1,1 +1,0 @@
-give @s minecraft:iron_hoe{display: {Name: '{"text":"Soul Hoe","italic":false}', Lore: ['{"text":"Level: I","color":"gold"}', '{"text":""}', '{"text":"It is said this tool"}', '{"text":"can adapt to its wielder."}']}, Enchantments: [{id: "fortune", lvl: 0}], RepairCost: 1000000, HideFlags: 5, Unbreakable: 1}
