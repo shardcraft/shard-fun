@@ -1,1 +1,0 @@
-give @s minecraft:iron_shovel{display: {Name: '{"text":"Soul Shovel","italic":false}', Lore: ['{"text":"Level: IV","color":"gold"}', '{"text":""}', '{"text":"It is said this tool"}', '{"text":"can adapt to its wielder."}']}, Enchantments: [{id: "efficiency", lvl: 3}], RepairCost: 1000000, HideFlags: 5, Unbreakable: 1}
