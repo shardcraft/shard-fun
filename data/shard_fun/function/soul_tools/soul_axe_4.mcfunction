@@ -1,1 +1,0 @@
-give @s minecraft:iron_axe[custom_name='{"text":"Soul Axe","italic":false}',lore=['{"text":"Level: IV","color":"gold"}','{"text":""}','{"text":"It is said this tool"}','{"text":"can adapt to its wielder."}'],enchantments={levels:{efficiency: 4},show_in_tooltip:false},repair_cost=1000000,unbreakable={show_in_tooltip:false}] 1
