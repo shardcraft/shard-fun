@@ -1,6 +1,7 @@
 {
   "function": "set_components",
   "components": {
+    "minecraft:custom_model_data": 6120025,
     "minecraft:enchantments": {
       "levels": {
         "minecraft:efficiency": 3
