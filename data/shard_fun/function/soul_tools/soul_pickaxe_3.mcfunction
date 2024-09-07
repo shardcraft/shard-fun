@@ -1,1 +1,0 @@
-give @s minecraft:iron_pickaxe[custom_name='{"text":"Soul Pickaxe","italic":false}',lore=['{"text":"Level: III","color":"gold"}','{"text":""}','{"text":"It is said this tool"}','{"text":"can adapt to its wielder."}'],enchantments={levels:{efficiency: 2},show_in_tooltip:false},repair_cost=1000000,unbreakable={show_in_tooltip:false}] 1

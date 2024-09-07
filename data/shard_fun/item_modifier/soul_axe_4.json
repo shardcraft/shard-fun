@@ -1,0 +1,11 @@
+{
+  "function": "set_components",
+  "components": {
+    "minecraft:enchantments": {
+      "levels": {
+        "minecraft:efficiency": 4
+      },
+      "show_in_tooltip": false
+    }
+  }
+}
