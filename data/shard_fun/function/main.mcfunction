@@ -8,12 +8,6 @@ execute if score global clocks matches 0 run execute if entity @a[scores={deaths
 execute if score global clocks matches 0 run function shard_fun:update_fun_level
 execute if score global clocks matches 0 run function shard_fun:update_soul_tools
 
-# Modify wandering traders to sell soul_tools.
-execute if score global clocks matches 0 run execute as @e[type=minecraft:wandering_trader,limit=1,tag=!trade_soulAxe] run function shard_fun:wandering_trader/soul_axe
-execute if score global clocks matches 0 run execute as @e[type=minecraft:wandering_trader,limit=1,tag=!trade_soulHoe] run function shard_fun:wandering_trader/soul_hoe
-execute if score global clocks matches 0 run execute as @e[type=minecraft:wandering_trader,limit=1,tag=!trade_soulPickaxe] run function shard_fun:wandering_trader/soul_pickaxe
-execute if score global clocks matches 0 run execute as @e[type=minecraft:wandering_trader,limit=1,tag=!trade_soulShovel] run function shard_fun:wandering_trader/soul_shovel
-
 # Show particles around players holding Soul Tools
 execute if score global clocks matches 0 run function shard_fun:soul_tools/side_effects
 execute if score global clocks matches 10 run function shard_fun:soul_tools/side_effects

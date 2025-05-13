@@ -1,2 +1,0 @@
-execute if predicate shard_core:d4 run data modify entity @s Offers.Recipes append value {buy:{id:"emerald",count:4},buyB:{id:"nether_star",count:1},sell:{id:"iron_hoe",components:{custom_data:{shard_id:"soul_hoe"},custom_model_data:6120012,custom_name:'{"text":"Soul Hoe","color":"yellow","italic":false}',lore:['{"text":"Tools & Utilities","color":"blue","italic": false}','{"text":""}','{"text":"This tool can adapt to its wielder."}'],enchantment_glint_override:true,repair_cost:1000000,unbreakable:{show_in_tooltip:false}},count:1},maxUses:1}
-tag @s add trade_soulHoe
