@@ -1,0 +1,1 @@
+schedule function shard_fun:main 1s
