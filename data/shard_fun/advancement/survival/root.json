@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "shardcraft:shard/root",
+  "parent": "shard_core:root",
   "criteria": {
     "nothing": {
       "trigger": "minecraft:impossible"
