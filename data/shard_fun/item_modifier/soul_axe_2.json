@@ -1,12 +1,18 @@
 {
-  "function": "set_components",
+  "function": "minecraft:set_components",
   "components": {
-    "minecraft:custom_model_data": 6120008,
+    "minecraft:custom_model_data": {
+      "floats": [
+        6120008
+      ]
+    },
     "minecraft:enchantments": {
-      "levels": {
-        "minecraft:efficiency": 1
-      },
-      "show_in_tooltip": false
+      "minecraft:efficiency": 2
+    },
+    "minecraft:tooltip_display": {
+      "hidden_components": [
+        "minecraft:enchantments"
+      ]
     }
   }
 }

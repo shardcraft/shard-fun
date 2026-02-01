@@ -5,10 +5,10 @@ effect give @a[scores={fun=121935..,funLevel=3,timeSinceDeath=20..}] resistance 
 effect give @a[scores={fun=240000..,funLevel=4,timeSinceDeath=20..}] resistance 5 10 true
 
 # Show fireworks to all players that have enough fun to level up.
-execute at @a[scores={fun=13548..,funLevel=1,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:false, colors: [I; 15790320]}]}}}}
-execute at @a[scores={fun=50323..,funLevel=2,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:false, colors: [I; 14602026]}]}}}}
-execute at @a[scores={fun=121935..,funLevel=3,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:true, colors: [I; 5636095]}]}}}}
-execute at @a[scores={fun=240000..,funLevel=4,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:true, has_trail:true, colors: [I; 16711935]}]}}}}
+execute at @a[scores={fun=13548..,funLevel=1,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:false, colors: [15790320]}]}}}}
+execute at @a[scores={fun=50323..,funLevel=2,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:false, colors: [14602026]}]}}}}
+execute at @a[scores={fun=121935..,funLevel=3,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:false, has_trail:true, colors: [5636095]}]}}}}
+execute at @a[scores={fun=240000..,funLevel=4,timeSinceDeath=20..}] run summon firework_rocket ~ ~1.5 ~ {LifeTime: 0, FireworksItem: {id: "firework_rocket", count: 1, components: {fireworks: {flight_duration: 0, explosions: [{shape: "small_ball", has_twinkle:true, has_trail:true, colors: [16711935]}]}}}}
 
 # Update funLevel of all players that have enough fun.
 scoreboard players set @a funLevel 1

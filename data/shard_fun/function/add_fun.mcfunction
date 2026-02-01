@@ -14,7 +14,7 @@ scoreboard players add @a[gamemode=!creative,gamemode=!spectator,scores={brew=1.
 scoreboard players add @a[gamemode=!creative,gamemode=!spectator,scores={totem=1..}] fun 1000
 
 # Message
-execute if entity @a[scores={totem=1..}] run tellraw @a {"text":"","color":"white","extra":[{"selector":"@p[scores={totem=1..}]"},{"text":" has narrowly survived an"},{"text":" [Almost Certain Death]","color":"dark_purple"}],"hoverEvent":{"action":"show_text","contents":[{"text": "Use a Totem of Undying to cheat death","color":"dark_purple"},{"text": " ♦","color":"green"}]}}
+execute if entity @a[scores={totem=1..}] run tellraw @a {"text":"","color":"white","extra":[{"selector":"@p[scores={totem=1..}]"},{"text":" has narrowly survived an"},{"text":" [Almost Certain Death]","color":"dark_purple"}],"hover_event":{"action":"show_text","value":[{"text": "Use a Totem of Undying to cheat death","color":"dark_purple"},{"text": " ♦","color":"green"}]}}
 
 # Remove the amount of <condition> when fun is granted.
 scoreboard players remove @a[scores={walk=430..}] walk 430
