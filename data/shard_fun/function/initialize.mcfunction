@@ -20,6 +20,10 @@ scoreboard objectives add smelt minecraft.custom:minecraft.interact_with_furnace
 scoreboard objectives add brew minecraft.custom:minecraft.interact_with_brewingstand
 scoreboard objectives add totem minecraft.used:minecraft.totem_of_undying
 
+# Soul Tool Auto-Swap
+scoreboard objectives add soulRay dummy
+scoreboard objectives add soulTarget dummy
+
 # Team
 team add pvp "PvP"
 team modify pvp color white

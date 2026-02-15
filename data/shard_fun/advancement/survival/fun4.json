@@ -15,8 +15,5 @@
     "nothing": {
       "trigger": "minecraft:impossible"
     }
-  },
-  "rewards": {
-    "function": "shard_fun:soul_tools/soul_shovel"
   }
 }

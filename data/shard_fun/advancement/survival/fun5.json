@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "shard_fun:soul_tools/soul_pickaxe"
+    "function": "shard_fun:soul_tools/give/soul_pickaxe"
   }
 }
