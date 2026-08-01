@@ -12,8 +12,8 @@
   },
   "parent": "shard_core:root",
   "criteria": {
-    "nothing": {
-      "trigger": "minecraft:impossible"
+    "dying": {
+      "trigger": "minecraft:entity_killed_player"
     }
   }
 }

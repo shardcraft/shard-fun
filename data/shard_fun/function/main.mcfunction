@@ -2,7 +2,6 @@
 team join pvp @a
 
 # Do fun-related stuff.
-advancement grant @a only shard_fun:survival/root
 function shard_fun:add_fun
 execute if entity @a[scores={deaths=1..}] run function shard_fun:remove_fun
 function shard_fun:update_fun_level
