@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_helmet"
+      "id": "minecraft:netherite_helmet"
     },
     "title": "Undead",
     "frame": "challenge",
@@ -12,8 +12,21 @@
   },
   "parent": "shard_fun:survival/fun4",
   "criteria": {
-    "nothing": {
-      "trigger": "minecraft:impossible"
+    "fun": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "funLevel": {
+                "min": 5
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
